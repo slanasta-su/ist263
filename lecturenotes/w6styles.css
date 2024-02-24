@@ -1,0 +1,14 @@
+h1 {color:blue;}
+p {color: lightblue;}
+/*below is a grouped selector, which selects more than one elecment */
+p, h1 {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+/*im looking for a tags inside of p tags with selector below*/
+/*descendant selector: selecting for element within another element*/
+p a {color: red;}
+
+/*format for an id selector*/
+/*only one id under that name allowed per page*/
+#amazonlink {color:green;}
+
+/*format for a class selector: .[class name]*/
+.fcolor {color: chocolate;}
