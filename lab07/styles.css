@@ -8,10 +8,6 @@ a {
     color: #2E86C1; 
 }
 
-a:hover {
-    color: #F39C12; 
-}
-
 h1, h2 {
     color: #2C3E50; 
 }
@@ -24,18 +20,18 @@ h2 {
     font-size: 1.5em; 
 }
 
-.evenrow {
-    background-color: #EAEAEA; /* Gallery for a subtle contrast */
+nav {
+    background-color:  #e1eafb;
+    padding: 10px; /* Adds 10 pixels of padding inside the nav element */
+    margin-bottom: 30px;
 }
 
-.nav-background {
-    background-color: #EAEAEA; /* Gallery for site navigation background */
+nav a {
+    color: #2C3E50; /* Elephant color for navigation links */
 }
 
-.nav-highlight {
+nav a:hover {
     background-color: #F39C12; /* Bright Sun for highlighting navigation elements */
 }
 
-.nav-link {
-    color: #2C3E50; /* Elephant for navigation links */
-}
+
