@@ -1,9 +1,38 @@
-body, p, h6, h5, h4, h3, h2, h1 {font-family: Verdana, sans-serif;}
+body, p, h6, h5, h4, h3, h2, h1 {
+    font-family: Verdana, sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+}
 
-h1, h2 {color: #A52A2A;}
+a {
+    color: #2E86C1;
+}
 
-.evenrow {background-color: lightgray;}
+a:hover {
+    color: #F39C12; 
+}
 
-h1 {font-size: 2em;}
+h1, h2 {
+    color: #2C3E50; 
+}
 
-h2{font-size: 1.5em;}
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em; 
+}
+
+/* Adding styles for site navigation, assuming a class might be used */
+.nav-background {
+    background-color: #EAEAEA; /* Gallery for site navigation background */
+}
+
+.nav-highlight {
+    background-color: #F39C12; /* Bright Sun for highlighting navigation elements */
+}
+
+.nav-link {
+    color: #2C3E50; /* Elephant for navigation links */
+}
