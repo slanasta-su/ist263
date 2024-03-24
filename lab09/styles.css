@@ -13,6 +13,12 @@ h1, h2 {
 
 h1 {
     font-size: 2em; 
+    text-align: center;
+}
+
+.intro {
+    margin: 6em;
+    padding-right: 15em;
 }
 
 h2 {
@@ -33,6 +39,34 @@ nav a:hover {
     background-color: #F39C12; /* Bright Sun for highlighting navigation elements */
 }
 
+img {
+    width: 2em ;
+    height: 2em;
+}
+
+.flexboxtwo {
+    display: flex;
+    margin: 1.5em;
+}
+
+.icons {
+    margin: 5em;
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+}
+
+aside {
+    background-color: #2C3E50;
+    color: white;
+    padding: 2em;
+    border-radius: 1em;
+    flex: 1; 
+}
+
+.asideheader {
+    color: white;
+}
 
 
 .contact-row {
