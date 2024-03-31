@@ -1,0 +1,119 @@
+body, p, h6, h5, h4, h3, h2, h1, td, th, caption {
+    font-family: Verdana, sans-serif;
+    color: #000000; 
+}
+
+a {
+    color: #2E86C1; 
+}
+
+h1, h2 {
+    color: #2C3E50; 
+}
+
+h1 {
+    font-size: 2em; 
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5em; 
+}
+
+nav {
+    background-color:  #e1eafb;
+    padding: 10px; /* Adds 10 pixels of padding inside the nav element */
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #2C3E50; /* Elephant color for navigation links */
+}
+
+nav a:hover {
+    background-color: #F39C12; /* Bright Sun for highlighting navigation elements */
+}
+
+.intro {
+    margin: 6em;
+    padding-right: 15em;
+}
+
+
+img:not(.biobanner) {
+    width: 2em;
+    height: 2em;
+}
+
+.biobanner {
+    max-width: 100%;
+}
+
+.flexboxtwo {
+    display: flex;
+    margin: 1.5em;
+}
+
+.icons {
+    margin: 5em;
+    display: flex;
+    flex: 3;
+    justify-content: space-between;
+}
+
+aside {
+    background-color: #2C3E50;
+    color: white;
+    padding: 2em;
+    border-radius: 1em;
+    flex: 1; 
+}
+
+.asideheader {
+    color: white;
+}
+
+
+.contact-row {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom:20px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 1em;
+
+}
+
+.contact-column {
+    flex-basis: 48%; /* Slightly less than half to account for the space-between */
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+footer p {
+    margin: 0; 
+    padding: 0; 
+}
+
+footer p.footer-quote {
+    text-align: center; 
+}
+
+/* tablets and small devices*/
+@media only screen and (max-width: 768px) {
+    nav a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+
+    }
+
+    nav span {
+        display: none;
+    }
+
+}
