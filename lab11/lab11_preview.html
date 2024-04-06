@@ -10,26 +10,21 @@
         .container {
             display: flex;
         }
-        #first {order: 1;}
-        #second {order: 2;}
-        #third {order: 3;}
+        #first {order: 0;}
+        #second {order: 1;}
+        #third {order: 2;}
     </style>
     <script>
         function WinnerMessage () {
         document.getElementById("messages").innerHTML = 'You Won!';
         }
-
         function TryAgain () {
         document.getElementById("messages").innerHTML = 'Wrong Shell — Try Again';
         }
-
         function ShuffleShells() {
         document.getElementById("first").style.order = Math.floor(Math.random() * 3) + 2;
-        document.getElementById("second").style.order = Math.floor(Math.random() * 3) + 2;
-        document.getElementById("third").style.order = Math.floor(Math.random() * 3) + 2;
         }
     </script>
-    <link rel="stylesheet" href="https://laferger.github.io/ist263/images/animate.css">
 </head>
 <body onload="ShuffleShells();">
     <h1>Choose a Walnut</h1>

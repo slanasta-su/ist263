@@ -1,4 +1,4 @@
-.first {
+#first {
     position: relative;
     animation-name: first;
     animation-duration: 2s;
@@ -11,7 +11,7 @@
     67%  {left:200px; top:200px;}
     100%  {left:0px; top:200px;}
 }
-.second {
+#second {
     position: relative;
     animation-name: second;
     animation-duration: 2s;
@@ -25,7 +25,7 @@
     100%  {left:200px; top:0px;}
 }
 
-.third {
+#third {
     position: relative;
     animation-name: third;
     animation-duration: 2s;
