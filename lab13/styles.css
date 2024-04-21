@@ -7,11 +7,11 @@ body, p, h6, h5, h4, h3, h2, h1, td, th, caption {
 }
 
 .skip {
-    background-color: rgb(151, 86, 151);
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 8px;
     text-decoration: none;
-    border: 2px solid orange;
+    border: 2px solid rgb(0, 0, 0);
     top: 10px;
     left: -999px; /*push off left side of browser*/
 }
