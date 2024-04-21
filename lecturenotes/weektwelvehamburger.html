@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger</title>
+    <style>
+        #hamicon {
+            display: none;
+            width: 40px;
+        }
+        #close {
+            display: none;
+        }
+        nav {
+            background-color: lightcoral;
+        }
+        a {
+            padding: 15px;
+        }
+        @media only screen and (max-width: 800px) {
+            #hamicon {display: block;}
+            #close {display: block;}
+            a { border: 1px solid black;
+                display: block} /*this is going to change the links  
+                                which are by default inline, to block, so that they're not next to eachother in a smaller screen. Now, each link takes up the full width of the screen.*/
+            #navlinks {         /*hiding links for small screens*/
+                display: none;
+            }
+            .row {
+                display: flex;
+                justify-content: space-between;
+
+            }
+        }
+    </style>
+    <script>
+        function showNav () {
+            document.getElementById("navlinks").style.display = "block";
+        }
+        function hideNav () {
+            document.getElementById("navlinks").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <div class="row">
+        <img id="hamicon" onclick="showNav();" src="https://laferger.github.io/ist263/images/hamburger.png" alt="hamburger icon">
+        <p id="close" onclick="hideNav();">X</p>
+    </div>
+    <nav id="navlinks">
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <h1>Hamburger Menu</h1>
+    <h2>CSS</h2>
+    <ol>
+        <li>large = show no hamburger menu</li>
+        <li>small = show hamburger menu</li>
+        <li>large = no x</li>
+        <li>small = show x</li>
+        <li>large = links side by side</li>
+        <li>small = stack links</li>
+        <li>small = links initially hidden</li>
+    </ol>
+    <h2>JavaScript</h2>
+    <ol>
+        <li>click on the hamburger to show links (onclick event)</li>
+        <li>click on the x to hide the links</li>
+
+    </ol>
+    
+</body>
+</html>
