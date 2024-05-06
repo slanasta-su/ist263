@@ -7,6 +7,21 @@ nav a {
   text-decoration: none;
   color: white;
 }
+.skip {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #768ee8;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.3s ease-in-out;
+}
+
+.skip:focus {
+  margin: 2rem;
+  top: 3px;
+}
 
 h1, h2, h3, h4 {
   font-family: "Passion One", sans-serif;
